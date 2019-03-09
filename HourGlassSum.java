@@ -21,6 +21,7 @@ int max_sum=Integer.MIN_VALUE;
                     +arr[i+1][j+1]+
                     arr[i+2][j]+arr[i+2][j+1]+arr[i+2][j+2]);
             max_sum=Math.max(sum,max_sum);
+            
         }
     }
 return max_sum;
